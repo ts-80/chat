@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(238, 144, 2);
+}
+#dialogoBox{
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}
+#dialogo{
+    width: 80vw;
+}
+#conversation{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 60vw;
+    height: 100vh;
+    border: solid 1px black;
+    background-image: url('fundos.webp');
+    
+}
+.pDialog{
+    
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    margin-bottom: 5px;
+    
+}
+.pResp{
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 150px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    margin-bottom: 5px;
+}
